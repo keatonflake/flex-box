@@ -1,0 +1,50 @@
+.card-grid {
+    padding: 0 10em 0 10em;
+}
+
+.card {
+    background: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 100%;
+    overflow: hidden;
+}
+
+img {
+    border-radius: 8px;
+
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 16px;
+    height: 1em;
+    width: 100%;
+    margin: 0;
+    z-index: 1;
+}
+
+.row-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 10em;
+}
+
+.row-grid img {
+    height: 80%;
+    width: 100%;
+}
+
+.col-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px;
+    height: 200vh;
+}
+
+.col-grid img {
+    height: 80%;
+}
